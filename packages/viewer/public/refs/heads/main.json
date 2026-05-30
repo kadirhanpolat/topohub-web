@@ -1,1 +1,5730 @@
-../../../cypress/fixtures/main.min.json
+{
+  "properties": [
+    {
+      "uid": "P000001",
+      "name": "$T_0$",
+      "aliases": ["Kolmogorov"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000002",
+      "name": "$T_1$",
+      "aliases": ["Fréchet"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000003",
+      "name": "$T_2$",
+      "aliases": ["Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000004",
+      "name": "$T_{2 \\frac{1}{2}}$",
+      "aliases": ["Urysohn", "Functionally Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000005",
+      "name": "$T_3$",
+      "aliases": ["Regular Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000006",
+      "name": "$T_{3 \\frac{1}{2}}$",
+      "aliases": ["Tychonoff", "Completely Regular Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000007",
+      "name": "$T_4$",
+      "aliases": ["Normal Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000008",
+      "name": "$T_5$",
+      "aliases": ["Completely normal Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000009",
+      "name": "Functionally Hausdorff",
+      "aliases": ["Functionally Hausdorff", "Urysohn", "Completely T2"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000010",
+      "name": "Semiregular",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000011",
+      "name": "Regular",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000012",
+      "name": "Completely regular",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000013",
+      "name": "Normal",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000014",
+      "name": "Completely normal",
+      "aliases": ["Hereditarily normal"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000015",
+      "name": "Perfectly normal",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000016",
+      "name": "Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000017",
+      "name": "$\\sigma$-compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000018",
+      "name": "Lindelof",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000019",
+      "name": "Countably compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000020",
+      "name": "Sequentially Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000021",
+      "name": "Weakly countably compact",
+      "aliases": ["Limit point compact"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000022",
+      "name": "Pseudocompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000023",
+      "name": "Weakly Locally Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000024",
+      "name": "Locally Relatively Compact",
+      "aliases": ["Weakly Locally Closed-and-Compact"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000025",
+      "name": "$\\sigma$-Locally Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000026",
+      "name": "Separable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000027",
+      "name": "Second Countable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000028",
+      "name": "First Countable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000029",
+      "name": "Countable chain condition",
+      "aliases": ["CCC"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000030",
+      "name": "Paracompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000031",
+      "name": "Metacompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000032",
+      "name": "Countably paracompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000033",
+      "name": "Countably metacompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000034",
+      "name": "Fully normal",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000035",
+      "name": "Fully $T_4$",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000036",
+      "name": "Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000037",
+      "name": "Path Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000038",
+      "name": "Arc connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000039",
+      "name": "Hyperconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000040",
+      "name": "Ultraconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000041",
+      "name": "Locally Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000042",
+      "name": "Locally Path Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000043",
+      "name": "Locally Arc Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000044",
+      "name": "Biconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000045",
+      "name": "Has Dispersion Point",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000046",
+      "name": "Totally Path Disconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000047",
+      "name": "Totally Disconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000048",
+      "name": "Totally Separated",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000049",
+      "name": "Extremally Disconnected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000050",
+      "name": "Zero Dimensional",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000051",
+      "name": "Scattered",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000052",
+      "name": "Discrete",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000053",
+      "name": "Metrizable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000054",
+      "name": "$\\sigma$-Locally Finite Base",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000055",
+      "name": "Completely metrizable",
+      "aliases": ["Topologically complete"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000056",
+      "name": "Meager",
+      "aliases": ["First category"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000057",
+      "name": "Countable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000058",
+      "name": "Smaller than the continuum",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000059",
+      "name": "Smaller or same as the power set of the continuum",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000060",
+      "name": "Strongly Connected",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000061",
+      "name": "Cozero complemented",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000062",
+      "name": "Weakly Lindelof",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000063",
+      "name": "Čech complete",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000064",
+      "name": "Baire",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000065",
+      "name": "Continuum-sized",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000066",
+      "name": "Menger",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000067",
+      "name": "$T_6$",
+      "aliases": ["Perfectly T_4", "Perfectly normal Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000068",
+      "name": "Rothberger",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000069",
+      "name": "Strategic Menger",
+      "aliases": ["M^+"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000070",
+      "name": "Markov Menger",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000071",
+      "name": "$\\sigma$-relatively-compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000072",
+      "name": "2-Markov Menger",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000073",
+      "name": "Sober",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000074",
+      "name": "Cosmic",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000075",
+      "name": "Spectral space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000076",
+      "name": "Proximal",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000077",
+      "name": "Corson compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000078",
+      "name": "Finite",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000079",
+      "name": "Sequential",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000080",
+      "name": "Fréchet Urysohn",
+      "aliases": ["Fréchet"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000081",
+      "name": "Countably tight",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000082",
+      "name": "Locally metrizable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000083",
+      "name": "Almost Čech Complete",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000084",
+      "name": "locally Hausdorff",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000085",
+      "name": "Ascoli",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000086",
+      "name": "Homogenous",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000087",
+      "name": "Groupable topology",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000088",
+      "name": "Collectionwise normal",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000089",
+      "name": "Fixed Point Property",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000090",
+      "name": "Alexandrov",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000091",
+      "name": "Eberlein compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000092",
+      "name": "Moving Off Property",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000093",
+      "name": "Locally countable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000094",
+      "name": "q Space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000095",
+      "name": "I-tactic Banach-Mazur",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000096",
+      "name": "II-tactic Banach-Mazur",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000097",
+      "name": "Homotopy Dense",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000098",
+      "name": "$k_\\omega$",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000099",
+      "name": "US",
+      "aliases": ["Sequentially Hausdorff"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000100",
+      "name": "KC",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000101",
+      "name": "Anti-Hausdorff",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000102",
+      "name": "Semimetrizable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000103",
+      "name": "Strongly KC",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000104",
+      "name": "K Analytic",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000105",
+      "name": "Angelic",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000106",
+      "name": "Strictly Angelic",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000107",
+      "name": "Pointwise Countable Type",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000108",
+      "name": "Locally Čech Complete",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000109",
+      "name": "Countable Type",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000110",
+      "name": "Has A Compact Resolution",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000111",
+      "name": "Hemicompact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000112",
+      "name": "Submetrizable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000113",
+      "name": "k$\\mathbb{R}$ Space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000114",
+      "name": "$\\aleph_0$",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000115",
+      "name": "Weakly K Analytic",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000116",
+      "name": "Pseudocomplete",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000117",
+      "name": "M Space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000118",
+      "name": "Pseudo-Polish",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000119",
+      "name": "Z-Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000120",
+      "name": "r Space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000121",
+      "name": "Pseudo-Metrizable",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000122",
+      "name": "S space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000123",
+      "name": "Locally Euclidean",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000124",
+      "name": "Topological manifold",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000125",
+      "name": "Has distinct points",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "counterexamples_id": null,
+      "uid": "P000128",
+      "name": "$k$-Lindelöf",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000129",
+      "name": "Indiscrete",
+      "aliases": ["Trivial topology"],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000130",
+      "name": "Locally Compact",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000131",
+      "name": "Hereditarily Lindelöf",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "P000132",
+      "name": "$G_\\delta$ space",
+      "aliases": [],
+      "refs": [],
+      "description": "-"
+    }
+  ],
+  "spaces": [
+    {
+      "uid": "S000001",
+      "counterexamples_id": 1,
+      "name": "Discrete topology on a two-point set",
+      "description": "-",
+      "aliases": ["Finite Discrete Topology"],
+      "refs": []
+    },
+    {
+      "uid": "S000004",
+      "counterexamples_id": 4,
+      "name": "Indiscrete Topology on a Two-Point Set",
+      "description": "-",
+      "aliases": ["Indiscrete Topology on a Two-Point Set"],
+      "refs": []
+    },
+    {
+      "uid": "S000029",
+      "counterexamples_id": 35,
+      "name": "One point compactification of the Rationals",
+      "description": "-",
+      "aliases": [],
+      "refs": []
+    },
+    {
+      "uid": "S000039",
+      "counterexamples_id": 46,
+      "name": "Closed long ray",
+      "description": "-",
+      "aliases": ["Extended long line"],
+      "refs": []
+    },
+    {
+      "uid": "S000041",
+      "counterexamples_id": 48,
+      "name": "Lexicographic unit square",
+      "description": "-",
+      "aliases": ["Lexicographic ordering on the unit square"],
+      "refs": []
+    },
+    {
+      "uid": "S000087",
+      "counterexamples_id": 89,
+      "name": "Dieudonné plank",
+      "description": "-",
+      "aliases": ["Dieudonne plank"],
+      "refs": []
+    },
+    {
+      "uid": "S000099",
+      "counterexamples_id": 101,
+      "name": "Alexandroff square",
+      "description": "-",
+      "aliases": [],
+      "refs": []
+    },
+    {
+      "uid": "S000154",
+      "counterexamples_id": 24,
+      "name": "Fort Space on the Real Numbers",
+      "description": "-",
+      "aliases": ["Uncountable Fort Space"],
+      "refs": []
+    }
+  ],
+  "theorems": [
+    {
+      "uid": "T000001",
+      "when": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000002",
+      "when": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000021",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000003",
+      "when": {
+        "kind": "atom",
+        "property": "P000020",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000004",
+      "when": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000022",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000005",
+      "when": {
+        "kind": "atom",
+        "property": "P000025",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000006",
+      "when": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000024",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000007",
+      "when": {
+        "kind": "atom",
+        "property": "P000024",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000023",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000008",
+      "when": {
+        "kind": "atom",
+        "property": "P000025",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000023",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000009",
+      "when": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000025",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000010",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000049",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000044", "T000085", "T000077"]
+    },
+    {
+      "uid": "T000011",
+      "when": {
+        "kind": "atom",
+        "property": "P000034",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000013",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000012",
+      "when": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000030",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000013",
+      "when": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000030",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000014",
+      "when": {
+        "kind": "atom",
+        "property": "P000030",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000031",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000015",
+      "when": {
+        "kind": "atom",
+        "property": "P000030",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000032",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000016",
+      "when": {
+        "kind": "atom",
+        "property": "P000031",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000033",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000017",
+      "when": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000032",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000018",
+      "when": {
+        "kind": "atom",
+        "property": "P000032",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000033",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000019",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000021",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000019",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000020",
+      "when": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000005",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000054",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000023"]
+    },
+    {
+      "uid": "T000021",
+      "when": {
+        "kind": "atom",
+        "property": "P000026",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000029",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000022",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000019",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000028",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000020",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000023",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000005",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000054",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000020"]
+    },
+    {
+      "uid": "T000024",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000031",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000026",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000018",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000025",
+      "when": {
+        "kind": "atom",
+        "property": "P000124",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000123",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000027",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": [],
+      "converse": null
+    },
+    {
+      "uid": "T000026",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000025",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000007",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000027",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000028",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000019",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000028",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000029",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000027",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000014",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000030",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000034",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000031",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000123",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000027",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000124",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": null
+    },
+    {
+      "uid": "T000032",
+      "when": {
+        "kind": "atom",
+        "property": "P000004",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000033",
+      "when": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000004",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000034",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000035",
+      "when": {
+        "kind": "atom",
+        "property": "P000012",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000011",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000036",
+      "when": {
+        "kind": "atom",
+        "property": "P000014",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000013",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000037",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000012",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000038",
+      "when": {
+        "kind": "atom",
+        "property": "P000040",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000037",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000039",
+      "when": {
+        "kind": "atom",
+        "property": "P000038",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000037",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000040",
+      "when": {
+        "kind": "atom",
+        "property": "P000037",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000036",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000041",
+      "when": {
+        "kind": "atom",
+        "property": "P000039",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000036",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000042",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000051",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000043",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000051",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000047",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000044",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000049",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000045",
+      "when": {
+        "kind": "atom",
+        "property": "P000049",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000048",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000046",
+      "when": {
+        "kind": "atom",
+        "property": "P000048",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000047",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000047",
+      "when": {
+        "kind": "atom",
+        "property": "P000047",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000046",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000048",
+      "when": {
+        "kind": "atom",
+        "property": "P000048",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000009",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000049",
+      "when": {
+        "kind": "atom",
+        "property": "P000047",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000050",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000026",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000059",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000051",
+      "when": {
+        "kind": "atom",
+        "property": "P000039",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000041",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000052",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000047",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000036",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000053",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000025",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000008", "T000005", "T000122"]
+    },
+    {
+      "uid": "T000054",
+      "when": {
+        "kind": "atom",
+        "property": "P000050",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000011",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000055",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000005",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": null
+    },
+    {
+      "uid": "T000056",
+      "when": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000057",
+      "when": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000028",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000058",
+      "when": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000056",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000059",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000056",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000061",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000026",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000027",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000005",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000062",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000063",
+      "when": {
+        "kind": "atom",
+        "property": "P000043",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000042",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000064",
+      "when": {
+        "kind": "atom",
+        "property": "P000042",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000041",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000065",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000066",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000050",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000067",
+      "when": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000058",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000068",
+      "when": {
+        "kind": "atom",
+        "property": "P000058",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000059",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000071",
+      "when": {
+        "kind": "atom",
+        "property": "P000039",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000060",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000072",
+      "when": {
+        "kind": "atom",
+        "property": "P000040",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000013",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000073",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000001",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000050",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000048",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000074",
+      "when": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000075",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000038",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000058",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000076",
+      "when": {
+        "kind": "atom",
+        "property": "P000060",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000022",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000077",
+      "when": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000078",
+      "when": {
+        "kind": "atom",
+        "property": "P000044",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000036",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000079",
+      "when": {
+        "kind": "atom",
+        "property": "P000060",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000036",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000080",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000009",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000060",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000081",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000036",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000005",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000083",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000043",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000052",
+            "value": false
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000058",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000084",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000043",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000085",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000086",
+      "when": {
+        "kind": "atom",
+        "property": "P000009",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000004",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000087",
+      "when": {
+        "kind": "atom",
+        "property": "P000040",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000060",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000088",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000037",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000046",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000089",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000042",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000052",
+            "value": false
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000046",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000090",
+      "when": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000054",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000091",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000039",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000040",
+            "value": false
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000013",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000092",
+      "when": {
+        "kind": "atom",
+        "property": "P000045",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000044",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000093",
+      "when": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000026",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000095",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000036",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000042",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000037",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000098",
+      "when": {
+        "kind": "atom",
+        "property": "P000007",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000099"]
+    },
+    {
+      "uid": "T000099",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000007",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000098"]
+    },
+    {
+      "uid": "T000100",
+      "when": {
+        "kind": "atom",
+        "property": "P000008",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000014",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000101"]
+    },
+    {
+      "uid": "T000101",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000014",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000008",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000100"]
+    },
+    {
+      "uid": "T000104",
+      "when": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000034",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000105"]
+    },
+    {
+      "uid": "T000105",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000034",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000104"]
+    },
+    {
+      "uid": "T000106",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000019",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000001", "T000121", "T000122"]
+    },
+    {
+      "uid": "T000107",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000019",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000031",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000001", "T000013", "T000014"]
+    },
+    {
+      "uid": "T000108",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000047",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000041",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": [
+        "T000044",
+        "T000045",
+        "T000046",
+        "T000084",
+        "T000063",
+        "T000064"
+      ]
+    },
+    {
+      "uid": "T000109",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000040",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000110",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000022",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000021",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000112",
+      "when": {
+        "kind": "atom",
+        "property": "P000008",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000007",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000113",
+      "when": {
+        "kind": "atom",
+        "property": "P000007",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000114",
+      "when": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000009",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000115",
+      "when": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000116",
+      "when": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000010",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000118",
+      "when": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000119",
+      "when": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000001",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000121",
+      "when": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000122",
+      "when": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000018",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000123",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000032",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000030",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000124",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000033",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000031",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000125",
+      "when": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000028",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000026",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000126",
+      "when": {
+        "kind": "atom",
+        "property": "P000061",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000128",
+      "when": {
+        "kind": "atom",
+        "property": "P000018",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000062",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000129",
+      "when": {
+        "kind": "atom",
+        "property": "P000026",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000062",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000130",
+      "when": {
+        "kind": "atom",
+        "property": "P000054",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000028",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000132",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000063",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": ["T000077", "T000133"]
+    },
+    {
+      "uid": "T000133",
+      "when": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000063",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000134",
+      "when": {
+        "kind": "atom",
+        "property": "P000064",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000056",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000135",
+      "when": {
+        "kind": "atom",
+        "property": "P000055",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000064",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000136",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000064",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000138",
+      "when": {
+        "kind": "atom",
+        "property": "P000065",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000058",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000139",
+      "when": {
+        "kind": "atom",
+        "property": "P000065",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000059",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000140",
+      "when": {
+        "kind": "atom",
+        "property": "P000066",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000018",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000141",
+      "when": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000066",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000142",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000029",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000006",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000061",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000146",
+      "when": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000011",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000148",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000001",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000005",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000149",
+      "when": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000012",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000151",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000012",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000001",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000006",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000152",
+      "when": {
+        "kind": "atom",
+        "property": "P000067",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000015",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000153",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000015",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000067",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000154",
+      "when": {
+        "kind": "atom",
+        "property": "P000067",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000008",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000155",
+      "when": {
+        "kind": "atom",
+        "property": "P000011",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000010",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000156",
+      "when": {
+        "kind": "atom",
+        "property": "P000015",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000014",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000160",
+      "when": {
+        "kind": "atom",
+        "property": "P000068",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000066",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000161",
+      "when": {
+        "kind": "atom",
+        "property": "P000069",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000066",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000162",
+      "when": {
+        "kind": "atom",
+        "property": "P000070",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000072",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000163",
+      "when": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000071",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000164",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000071",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000165",
+      "when": {
+        "kind": "atom",
+        "property": "P000070",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000071",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000166",
+      "when": {
+        "kind": "atom",
+        "property": "P000071",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000070",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000167",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000027",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000069",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000070",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000168",
+      "when": {
+        "kind": "atom",
+        "property": "P000072",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000069",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000169",
+      "when": {
+        "kind": "atom",
+        "property": "P000051",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000001",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000170",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000030",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000171",
+      "when": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000030",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000173",
+      "when": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000073",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000174",
+      "when": {
+        "kind": "atom",
+        "property": "P000073",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000001",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000176",
+      "when": {
+        "kind": "atom",
+        "property": "P000075",
+        "value": true
+      },
+      "then": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000073",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000016",
+            "value": true
+          }
+        ]
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000177",
+      "when": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000076",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000178",
+      "when": {
+        "kind": "atom",
+        "property": "P000077",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000076",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000179",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000076",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000016",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000077",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000180",
+      "when": {
+        "kind": "atom",
+        "property": "P000067",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000061",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000181",
+      "when": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000082",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000183",
+      "when": {
+        "kind": "atom",
+        "property": "P000028",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000080",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000184",
+      "when": {
+        "kind": "atom",
+        "property": "P000080",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000079",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000185",
+      "when": {
+        "kind": "atom",
+        "property": "P000079",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000081",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000186",
+      "when": {
+        "kind": "atom",
+        "property": "P000093",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000081",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000187",
+      "when": {
+        "kind": "atom",
+        "property": "P000078",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000188",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000052",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000016",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000078",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000189",
+      "when": {
+        "kind": "atom",
+        "property": "P000078",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000193",
+      "when": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000084",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000195",
+      "when": {
+        "kind": "atom",
+        "property": "P000084",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000196",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000063",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000197",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000078",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000198",
+      "when": {
+        "kind": "atom",
+        "property": "P000078",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000202",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000082",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000030",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000053",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000204",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000086",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000209",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000051",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000086",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000212",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000057",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000028",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000213",
+      "when": {
+        "kind": "atom",
+        "property": "P000088",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000013",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000214",
+      "when": {
+        "kind": "atom",
+        "property": "P000035",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000088",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000215",
+      "when": {
+        "kind": "atom",
+        "property": "P000077",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000080",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000218",
+      "when": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000090",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000219",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000016",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000091",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000220",
+      "when": {
+        "kind": "atom",
+        "property": "P000091",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000077",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000223",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000079",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000019",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000020",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000224",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000024",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000226",
+      "when": {
+        "kind": "atom",
+        "property": "P000099",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000002",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000227",
+      "when": {
+        "kind": "atom",
+        "property": "P000100",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000099",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000228",
+      "when": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000100",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000232",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000101",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000003",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000234",
+      "when": {
+        "kind": "atom",
+        "property": "P000103",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000100",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000235",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000079",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000099",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000103",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000236",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000111",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": null
+    },
+    {
+      "uid": "T000237",
+      "when": {
+        "kind": "atom",
+        "property": "P000111",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000017",
+        "value": true
+      },
+      "description": "-",
+      "refs": [],
+      "converse": null
+    },
+    {
+      "uid": "T000238",
+      "when": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000093",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000239",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000016",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000036",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000041",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000053",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000038",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000240",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000037",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000038",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000245",
+      "when": {
+        "kind": "atom",
+        "property": "P000130",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000023",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000246",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000023",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000130",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000247",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000052",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000129",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000125",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000248",
+      "when": {
+        "kind": "atom",
+        "property": "P000125",
+        "value": false
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000052",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000249",
+      "when": {
+        "kind": "atom",
+        "property": "P000125",
+        "value": false
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000129",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000250",
+      "when": {
+        "kind": "atom",
+        "property": "P000078",
+        "value": false
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000125",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000251",
+      "when": {
+        "kind": "atom",
+        "property": "P000129",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000016",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000252",
+      "when": {
+        "kind": "atom",
+        "property": "P000129",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000015",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000253",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000001",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000129",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000254",
+      "when": {
+        "kind": "atom",
+        "property": "P000131",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000018",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000255",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000018",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000132",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000131",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000256",
+      "when": {
+        "kind": "atom",
+        "property": "P000015",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000132",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000257",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000013",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000132",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000015",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000258",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000011",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000131",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000015",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000259",
+      "when": {
+        "kind": "atom",
+        "property": "P000057",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000131",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000260",
+      "when": {
+        "kind": "atom",
+        "property": "P000027",
+        "value": true
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000131",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000261",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000057",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000002",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000132",
+        "value": true
+      },
+      "description": "-",
+      "refs": []
+    },
+    {
+      "uid": "T000262",
+      "when": {
+        "kind": "and",
+        "subs": [
+          {
+            "kind": "atom",
+            "property": "P000125",
+            "value": true
+          },
+          {
+            "kind": "atom",
+            "property": "P000003",
+            "value": true
+          }
+        ]
+      },
+      "then": {
+        "kind": "atom",
+        "property": "P000039",
+        "value": false
+      },
+      "description": "-",
+      "refs": []
+    }
+  ],
+  "traits": [
+    {
+      "uid": "T000003",
+      "space": "S000001",
+      "property": "P000024",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000009",
+      "space": "S000001",
+      "property": "P000036",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000028",
+      "space": "S000001",
+      "property": "P000052",
+      "value": true,
+      "refs": [],
+      "description": "All subsets of this space are open by definition."
+    },
+    {
+      "uid": "T024776",
+      "space": "S000001",
+      "property": "P000078",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000001",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000021",
+      "space": "S000004",
+      "property": "P000001",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000017",
+      "space": "S000004",
+      "property": "P000027",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000018",
+      "space": "S000004",
+      "property": "P000037",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000019",
+      "space": "S000004",
+      "property": "P000039",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000020",
+      "space": "S000004",
+      "property": "P000040",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000844",
+      "space": "S000004",
+      "property": "P000042",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000845",
+      "space": "S000004",
+      "property": "P000044",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000843",
+      "space": "S000004",
+      "property": "P000050",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000004",
+      "property": "P000051",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000016",
+      "space": "S000004",
+      "property": "P000056",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000004",
+      "property": "P000129",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000670",
+      "space": "S000029",
+      "property": "P000002",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000668",
+      "space": "S000029",
+      "property": "P000003",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000669",
+      "space": "S000029",
+      "property": "P000016",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000672",
+      "space": "S000029",
+      "property": "P000020",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001079",
+      "space": "S000029",
+      "property": "P000028",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001352",
+      "space": "S000029",
+      "property": "P000041",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000671",
+      "space": "S000029",
+      "property": "P000045",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001353",
+      "space": "S000029",
+      "property": "P000046",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001354",
+      "space": "S000029",
+      "property": "P000056",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000911",
+      "space": "S000029",
+      "property": "P000057",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000669",
+      "space": "S000029",
+      "property": "P000100",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000029",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000029",
+      "property": "P000130",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000731",
+      "space": "S000039",
+      "property": "P000008",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000733",
+      "space": "S000039",
+      "property": "P000016",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001349",
+      "space": "S000039",
+      "property": "P000020",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001362",
+      "space": "S000039",
+      "property": "P000028",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001083",
+      "space": "S000039",
+      "property": "P000029",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000734",
+      "space": "S000039",
+      "property": "P000036",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000735",
+      "space": "S000039",
+      "property": "P000037",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001373",
+      "space": "S000039",
+      "property": "P000041",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001375",
+      "space": "S000039",
+      "property": "P000046",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001383",
+      "space": "S000039",
+      "property": "P000059",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000039",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000741",
+      "space": "S000041",
+      "property": "P000008",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001080",
+      "space": "S000041",
+      "property": "P000015",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000742",
+      "space": "S000041",
+      "property": "P000016",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000744",
+      "space": "S000041",
+      "property": "P000028",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000743",
+      "space": "S000041",
+      "property": "P000029",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000745",
+      "space": "S000041",
+      "property": "P000036",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000746",
+      "space": "S000041",
+      "property": "P000037",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001372",
+      "space": "S000041",
+      "property": "P000041",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001369",
+      "space": "S000041",
+      "property": "P000044",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001377",
+      "space": "S000041",
+      "property": "P000046",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001385",
+      "space": "S000041",
+      "property": "P000059",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000041",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T015406",
+      "space": "S000087",
+      "property": "P000004",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T024280",
+      "space": "S000087",
+      "property": "P000011",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T024285",
+      "space": "S000087",
+      "property": "P000013",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T015411",
+      "space": "S000087",
+      "property": "P000021",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T015415",
+      "space": "S000087",
+      "property": "P000031",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T015417",
+      "space": "S000087",
+      "property": "P000032",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000087",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000349",
+      "space": "S000099",
+      "property": "P000007",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000912",
+      "space": "S000099",
+      "property": "P000014",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000350",
+      "space": "S000099",
+      "property": "P000016",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000352",
+      "space": "S000099",
+      "property": "P000020",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000351",
+      "space": "S000099",
+      "property": "P000028",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001140",
+      "space": "S000099",
+      "property": "P000029",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000353",
+      "space": "S000099",
+      "property": "P000038",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000354",
+      "space": "S000099",
+      "property": "P000041",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001122",
+      "space": "S000099",
+      "property": "P000044",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T001177",
+      "space": "S000099",
+      "property": "P000059",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000099",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000607",
+      "space": "S000154",
+      "property": "P000002",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000608",
+      "space": "S000154",
+      "property": "P000008",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000609",
+      "space": "S000154",
+      "property": "P000015",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000610",
+      "space": "S000154",
+      "property": "P000016",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000611",
+      "space": "S000154",
+      "property": "P000020",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000612",
+      "space": "S000154",
+      "property": "P000026",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000613",
+      "space": "S000154",
+      "property": "P000028",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000154",
+      "property": "P000029",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000614",
+      "space": "S000154",
+      "property": "P000048",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000615",
+      "space": "S000154",
+      "property": "P000049",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000617",
+      "space": "S000154",
+      "property": "P000050",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T000616",
+      "space": "S000154",
+      "property": "P000051",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "T025511",
+      "space": "S000154",
+      "property": "P000080",
+      "value": true,
+      "refs": [],
+      "description": "-"
+    },
+    {
+      "uid": "",
+      "space": "S000154",
+      "property": "P000129",
+      "value": false,
+      "refs": [],
+      "description": "-"
+    }
+  ],
+  "version": {
+    "ref": "master",
+    "sha": "af740ddea040647482006ecb75b53f4041cd590e"
+  }
+}
