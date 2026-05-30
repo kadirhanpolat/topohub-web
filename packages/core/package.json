@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build:peg": "peggy --plugin ./node_modules/ts-pegjs/dist/tspegjs -o src/Formula/Grammar.ts --cache src/Formula/Grammar.pegjs",
-    "build": "pnpm build:peg && ./bin/build",
+    "build": "pnpm build:peg && node bin/build.mjs",
     "dev": "pnpm build:peg && tsc --watch",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",

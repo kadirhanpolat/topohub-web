@@ -1,2 +1,10 @@
 packages:
   - packages/*
+allowBuilds:
+  '@sveltejs/kit': true
+  '@vscode/vsce-sign': true
+  cypress: true
+  es5-ext: true
+  esbuild: true
+  keytar: true
+  svelte-preprocess: true
