@@ -1,10 +1,13 @@
 <script lang="ts">
   import Typeset from '@/components/Shared/Typeset.svelte'
   import { Id } from '@/models'
+  import { propertyName } from '@/i18n/propertyNames'
 
   export let property: { id: number; name: string }
   export let content: 'id' | 'idLong' | 'name' = 'name'
   export let emphasized: boolean = false
+
+  $: localized = $propertyName(property.id, property.name)
 </script>
 
 <a
@@ -15,7 +18,7 @@
 >
   <slot>
     {#if content === 'name'}
-      <Typeset body={property.name} />
+      <Typeset body={localized} />
     {:else if content === 'id'}
       P{property.id}
     {:else}

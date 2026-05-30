@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Property } from '@/models'
   import { Typeset } from '@/components/Shared'
+  import { propertyName } from '@/i18n/propertyNames'
 
   export let suggestions: Property[]
   export let selected: number | undefined
@@ -19,7 +20,7 @@
         on:click={() => onClick(i)}
         on:keydown={() => onClick(i)}
       >
-        <Typeset body={property.name} />
+        <Typeset body={$propertyName(property.id, property.name)} />
         {#if property.aliases.length > 0}
           <br />
           <small class={i === selected ? 'active' : 'text-muted'}>

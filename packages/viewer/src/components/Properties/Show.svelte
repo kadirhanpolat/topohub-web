@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n'
   import type { Property } from '@/models'
   import {
     Aliases,
@@ -9,6 +10,7 @@
     Tabs,
     Typeset,
   } from '../Shared'
+  import { propertyName } from '@/i18n/propertyNames'
   import Spaces from './Spaces.svelte'
   import Theorems from './Theorems.svelte'
 
@@ -17,20 +19,23 @@
   export let rel: string | undefined = undefined
 
   const tabs = ['theorems', 'spaces', 'references'] as const
+  $: localized = $propertyName(property.id, property.name)
 </script>
 
 <h3>
-  Property <Link.Property {property} content="idLong" />
+  {$_('show.property')}
+  <Link.Property {property} content="idLong" />
   <LeanLink kind="property" id={property.id} />
 </h3>
 
 <h1>
-  <Typeset body={property.name} />
+  <Typeset body={localized} />
 </h1>
 
 {#if property.aliases.length > 0}
   <h4 class="text-muted lead">
-    Also known as: <Aliases aliases={property.aliases} />
+    {$_('show.alsoKnownAs')}
+    <Aliases aliases={property.aliases} />
   </h4>
 {/if}
 

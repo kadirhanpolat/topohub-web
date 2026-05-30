@@ -1,5 +1,6 @@
 <script lang="ts">
   import { writable } from 'svelte/store'
+  import { _ } from 'svelte-i18n'
 
   import type { Formula, Property } from '@/models'
   import urlSearchParam from '@/stores/urlSearchParam'
@@ -12,14 +13,6 @@
   const rawFormula = writable('')
   const formula = writable<Formula<Property> | undefined>(undefined)
 
-  // HACK: the existing formula input decides whether or not to show suggestions
-  // by subscribing to changes to rawFormula. Because of this, there's no way to
-  // distinguish between a user-typed change (which should trigger suggestions)
-  // and one applied by selecting an example (which shouldn't, as it's known to
-  // be complete). This gives us a gross way of manually masking those out.
-  //
-  // It really feels like we don't have the right architecture for this formula
-  // state.
   const suggest = writable(false)
   rawFormula.subscribe(_ => ($suggest = true))
   function selectExample(example: string) {
@@ -46,25 +39,27 @@
     }
   }
 
-  $: title = `π-Base, ${describe($rawFormula, $text)}`
+  $: title = `TopoHub, ${describe($rawFormula, $text)}`
 </script>
 
 <div class="row">
   <div class="col-md-4">
     <div class="form-group">
-      <label class="form-label" for="text">Filter by Text</label>
+      <label class="form-label" for="text">{$_('search.filterByText')}</label>
       <input
         class="form-control"
         name="text"
-        placeholder="e.g. plank"
+        placeholder={$_('search.placeholderText')}
         bind:value={$text}
       />
     </div>
     <div class="form-group">
-      <label class="form-label" for="formula">Filter by Formula</label>
+      <label class="form-label" for="formula"
+        >{$_('search.filterByFormula')}</label
+      >
       <FormulaInput
         name="q"
-        placeholder="e.g. compact + metrizable"
+        placeholder={$_('search.placeholderFormula')}
         raw={rawFormula}
         suggest={$suggest}
         {formula}

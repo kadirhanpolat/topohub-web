@@ -4,7 +4,7 @@
   let dot = 'digraph  {a -> b}'
 </script>
 
-<Title title="GraphViz" />
+<Title tkey="page.graphviz" />
 
 <input type="text" bind:value={dot} />
 

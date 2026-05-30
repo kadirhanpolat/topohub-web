@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n'
   import { Filter, Link, Typeset } from '@/components/Shared'
   import type { Property } from '@/models'
   import type { Store } from '@/stores/list'
@@ -12,9 +13,13 @@
 <table class="table">
   <thead>
     <tr>
-      <th style="width: 5%" on:click={properties.sort('id')}>Id</th>
-      <th style="width: 25%" on:click={properties.sort('name')}>Name</th>
-      <th style="width: 70%">Description</th>
+      <th style="width: 5%" on:click={properties.sort('id')}
+        >{$_('table.id')}</th
+      >
+      <th style="width: 25%" on:click={properties.sort('name')}
+        >{$_('table.name')}</th
+      >
+      <th style="width: 70%">{$_('table.description')}</th>
     </tr>
   </thead>
   {#each $properties as property (property.id)}

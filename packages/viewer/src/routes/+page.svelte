@@ -3,6 +3,6 @@
   import Home from '@/components/Home.svelte'
 </script>
 
-<Title title="Home" />
+<Title />
 
 <Home />

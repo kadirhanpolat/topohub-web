@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n'
   import { Filter, Link, Typeset } from '@/components/Shared'
   import type { Space } from '@/models'
   import type { Store } from '@/stores/list'
@@ -12,9 +13,11 @@
 <table class="table">
   <thead>
     <tr>
-      <th style="width: 5%" on:click={spaces.sort('id')}>Id</th>
-      <th style="width: 35%" on:click={spaces.sort('name')}>Name</th>
-      <th style="width: 60%">Description</th>
+      <th style="width: 5%" on:click={spaces.sort('id')}>{$_('table.id')}</th>
+      <th style="width: 35%" on:click={spaces.sort('name')}
+        >{$_('table.name')}</th
+      >
+      <th style="width: 60%">{$_('table.description')}</th>
     </tr>
   </thead>
   {#each $spaces as space (space.id)}

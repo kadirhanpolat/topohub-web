@@ -3,6 +3,6 @@
   import Search from '@/components/Search'
 </script>
 
-<Title title="Explore" />
+<Title tkey="page.explore" />
 
 <Search />

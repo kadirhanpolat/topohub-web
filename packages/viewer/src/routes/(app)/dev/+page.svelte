@@ -3,6 +3,6 @@
   import { Settings } from '@/components/Dev'
 </script>
 
-<Title title="Advanced" />
+<Title tkey="page.advanced" />
 
 <Settings />

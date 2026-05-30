@@ -3,6 +3,6 @@
   import { Preview } from '@/components/Dev'
 </script>
 
-<Title title="Preview Markdown" />
+<Title tkey="page.previewMarkdown" />
 
 <Preview />

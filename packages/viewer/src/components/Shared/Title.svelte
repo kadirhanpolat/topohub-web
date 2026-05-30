@@ -1,13 +1,18 @@
 <script lang="ts">
-  export let title: string
+  import { _ } from 'svelte-i18n'
+
+  export let title: string = ''
+  export let tkey: string = ''
+
+  $: resolved = tkey ? $_(tkey) : title
 </script>
 
 <svelte:head>
-  {#key title}
-    {#if title}
-      <title>{title} | π-Base</title>
+  {#key resolved}
+    {#if resolved}
+      <title>{resolved} | TopoHub</title>
     {:else}
-      <title>π-Base</title>
+      <title>TopoHub</title>
     {/if}
   {/key}
 </svelte:head>

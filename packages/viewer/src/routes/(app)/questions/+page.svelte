@@ -3,6 +3,6 @@
   import Questions from '@/components/Questions/Questions.svelte'
 </script>
 
-<Title title="Questions" />
+<Title tkey="page.questions" />
 
 <Questions />

@@ -1,6 +1,8 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n'
   import type { Space } from '@/models'
   import { Aliases, Link, References, Source, Tabs, Typeset } from '../Shared'
+  import { spaceName } from '@/i18n/spaceNames'
   import Counterexamples from './Counterexamples.svelte'
   import Properties from './Properties.svelte'
 
@@ -9,17 +11,19 @@
   export let rel: string | undefined = undefined
 
   const tabs = ['properties', 'theorems', 'references'] as const
+  $: localized = $spaceName(space.id, space.name)
 </script>
 
-<h3>Space <Link.Space {space} content="idLong" /></h3>
+<h3>{$_('show.space')} <Link.Space {space} content="idLong" /></h3>
 
 <h1>
-  <Typeset body={space.name} />
+  <Typeset body={localized} />
 </h1>
 
 {#if space.aliases.length > 0}
   <h4 class="text-muted lead">
-    Also known as: <Aliases aliases={space.aliases} />
+    {$_('show.alsoKnownAs')}
+    <Aliases aliases={space.aliases} />
   </h4>
 {/if}
 

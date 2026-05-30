@@ -1,23 +1,24 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n'
+
   export let select: (search: string) => void
 
   const examples = [
     {
-      label: 'All Non-Metric Continua',
+      labelKey: 'examples.allNonMetricContinua',
       search: 'compact + connected + t_2 + ~metrizable',
     },
     {
-      label: 'A Common Non-Theorem',
+      labelKey: 'examples.aCommonNonTheorem',
       search: 'first countable + separable + ~second countable',
     },
   ]
 </script>
 
-<p><b>Not sure where to start?</b> Try one of the following searches:</p>
-{#each examples as { label, search } (label)}
+<p><b>{$_('examples.notSure')}</b> {$_('examples.tryOneOf')}</p>
+{#each examples as { labelKey, search } (labelKey)}
   <article>
-    <h5>{label}</h5>
-    <!-- TODO: we shouldn't need an on:click here -->
+    <h5>{$_(labelKey)}</h5>
     <a
       href={`?q=${encodeURIComponent(search)}`}
       on:click={() => select(search)}
