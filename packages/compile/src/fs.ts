@@ -15,7 +15,8 @@ export type File = {
 }
 
 export async function readFiles(pattern: string): Promise<File[]> {
-  const items = await glob(pattern)
+  const normalized = pattern.replace(/\\/g, '/')
+  const items = await glob(normalized)
   return Promise.all(
     items.map(async function read(path: string) {
       const contents = await readFile(path)

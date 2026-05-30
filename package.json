@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,js,svelte,yaml}": "pnpm lint"
+    "*.{ts,js,svelte,yaml}": "prettier --write"
   },
   "devDependencies": {
     "@types/node": "^22.15.0",

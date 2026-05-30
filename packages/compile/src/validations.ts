@@ -275,7 +275,6 @@ export function trait(input: File) {
     required(trait, 'space', error)
     required(trait, 'property', error)
     required(trait, 'value', error)
-    required(trait, 'description', error)
     noExtras(rest, error)
 
     return trait
