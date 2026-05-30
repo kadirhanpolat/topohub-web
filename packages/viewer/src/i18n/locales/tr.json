@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "explore": "Keşfet",
+    "spaces": "Uzaylar",
+    "properties": "Özellikler",
+    "theorems": "Teoremler",
+    "questions": "Sorular",
+    "advanced": "Gelişmiş",
+    "contribute": "Katkıda Bulun",
+    "help": "Yardım"
+  },
+  "page": {
+    "home": "Ana Sayfa",
+    "explore": "Keşfet",
+    "spaces": "Uzaylar",
+    "properties": "Özellikler",
+    "theorems": "Teoremler",
+    "questions": "Sorular",
+    "advanced": "Gelişmiş",
+    "graphviz": "GraphViz",
+    "previewMarkdown": "Markdown Önizleme"
+  },
+  "search": {
+    "filterByText": "Metne göre süz",
+    "filterByFormula": "Formüle göre süz",
+    "placeholderText": "ör. plank",
+    "placeholderFormula": "ör. compact + metrizable"
+  },
+  "filter": {
+    "placeholder": "Süz"
+  },
+  "examples": {
+    "notSure": "Nereden başlayacağınızı bilmiyor musunuz?",
+    "tryOneOf": "Şu örneklerden birini deneyin:",
+    "allNonMetricContinua": "Tüm Metrik Olmayan Sürekliler",
+    "aCommonNonTheorem": "Yaygın Bir Karşıörnek"
+  },
+  "questions": {
+    "reroll": "Başka soru",
+    "does": "Şu uzay",
+    "satisfy": "özelliğini sağlıyor mu?",
+    "traitLink": "Özellik bağlantısı:",
+    "disclaimer": "Uyarı: Bazı sorular ZFC içinde cevaplanamaz!"
+  },
+  "table": {
+    "id": "No",
+    "name": "Ad",
+    "description": "Tanım"
+  },
+  "show": {
+    "alsoKnownAs": "Diğer adıyla:",
+    "property": "Özellik",
+    "space": "Uzay",
+    "theorem": "Teorem"
+  },
+  "footer": {
+    "builtOn": "Altyapı:",
+    "dataCredit": "Veri",
+    "softwareCredit": "Yazılım",
+    "dataLastSync": "Veri son senkronizasyon:"
+  },
+  "lang": {
+    "tr": "TR",
+    "en": "EN"
+  }
+}

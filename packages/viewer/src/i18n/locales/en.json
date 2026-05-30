@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "spaces": "Spaces",
+    "properties": "Properties",
+    "theorems": "Theorems",
+    "questions": "Questions",
+    "advanced": "Advanced",
+    "contribute": "Contribute",
+    "help": "Help"
+  },
+  "page": {
+    "home": "Home",
+    "explore": "Explore",
+    "spaces": "Spaces",
+    "properties": "Properties",
+    "theorems": "Theorems",
+    "questions": "Questions",
+    "advanced": "Advanced",
+    "graphviz": "GraphViz",
+    "previewMarkdown": "Preview Markdown"
+  },
+  "search": {
+    "filterByText": "Filter by Text",
+    "filterByFormula": "Filter by Formula",
+    "placeholderText": "e.g. plank",
+    "placeholderFormula": "e.g. compact + metrizable"
+  },
+  "filter": {
+    "placeholder": "Filter"
+  },
+  "examples": {
+    "notSure": "Not sure where to start?",
+    "tryOneOf": "Try one of the following searches:",
+    "allNonMetricContinua": "All Non-Metric Continua",
+    "aCommonNonTheorem": "A Common Non-Theorem"
+  },
+  "questions": {
+    "reroll": "Reroll question",
+    "does": "Does",
+    "satisfy": "satisfy",
+    "traitLink": "Trait link:",
+    "disclaimer": "Disclaimer: some questions cannot be answered in ZFC!"
+  },
+  "table": {
+    "id": "Id",
+    "name": "Name",
+    "description": "Description"
+  },
+  "show": {
+    "alsoKnownAs": "Also known as:",
+    "property": "Property",
+    "space": "Space",
+    "theorem": "Theorem"
+  },
+  "footer": {
+    "builtOn": "Built on",
+    "dataCredit": "Data",
+    "softwareCredit": "Software",
+    "dataLastSync": "Data last synchronized:"
+  },
+  "lang": {
+    "tr": "TR",
+    "en": "EN"
+  }
+}

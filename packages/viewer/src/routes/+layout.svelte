@@ -1,5 +1,6 @@
 <script lang="ts">
   import 'bootstrap/dist/css/bootstrap.min.css'
+  import '@/i18n'
 
   import { browser } from '$app/environment'
 
