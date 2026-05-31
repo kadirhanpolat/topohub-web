@@ -54,3 +54,82 @@
 .description {
   margin-bottom: 1rem;
 }
+
+/* Sunum modu (sınıfta canlı gösterim için) */
+body.present-mode .navbar,
+body.present-mode footer,
+body.present-mode .status {
+  display: none !important;
+}
+
+body.present-mode {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+body.present-mode main.container,
+body.present-mode .container {
+  max-width: 1400px;
+  padding-top: 2rem;
+}
+
+body.present-mode h1 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+body.present-mode h2 {
+  font-size: 2.3em;
+}
+
+body.present-mode h3 {
+  font-size: 1.8em;
+}
+
+body.present-mode table.table {
+  font-size: 1em;
+}
+
+body.present-mode .jumbotron.home-jumbotron {
+  padding: 3rem 2rem;
+}
+
+body.present-mode .property-link {
+  padding: 2px 10px;
+  border-radius: 8px;
+}
+
+.present-exit-btn {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: inherit;
+}
+
+.present-exit-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.present-exit-btn .present-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #f44;
+  border-radius: 50%;
+  margin-right: 8px;
+  animation: present-pulse 2s infinite;
+}
+
+@keyframes present-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}

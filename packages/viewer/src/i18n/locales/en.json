@@ -59,6 +59,11 @@
     "softwareCredit": "Software",
     "dataLastSync": "Data last synchronized:"
   },
+  "present": {
+    "active": "Presentation mode",
+    "start": "Present",
+    "exit": "Exit"
+  },
   "lang": {
     "tr": "TR",
     "en": "EN"

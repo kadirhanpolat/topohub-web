@@ -1,5 +1,7 @@
 <script lang="ts">
   import { _, locale } from 'svelte-i18n'
+  import { browser } from '$app/environment'
+  import { goto } from '$app/navigation'
   import context from '@/context'
   import { contributingUrl, mainBranch, helpUrl } from '@/constants'
   import { setLocale } from '@/i18n'
@@ -9,6 +11,13 @@
 
   $: onMain = $source.branch === mainBranch
   $: bg = onMain ? 'light' : 'dark'
+
+  function startPresent() {
+    if (!browser) return
+    const url = new URL(window.location.href)
+    url.searchParams.set('present', '1')
+    goto(url.pathname + url.search, { replaceState: false, noScroll: true })
+  }
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-{bg} bg-{bg}">
@@ -34,6 +43,15 @@
       <a class="nav-link" href={contributingUrl}>{$_('nav.contribute')}</a>
       <a class="nav-link" href={helpUrl}>{$_('nav.help')}</a>
 
+      <button
+        type="button"
+        class="present-start nav-link"
+        on:click={startPresent}
+        title={$_('present.active')}
+      >
+        ▶ {$_('present.start')}
+      </button>
+
       <div class="lang-switch">
         <button
           type="button"
@@ -54,6 +72,17 @@
 </nav>
 
 <style>
+  .present-start {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: inherit;
+    opacity: 0.75;
+  }
+  .present-start:hover {
+    opacity: 1;
+  }
   .lang-switch {
     margin-left: 0.75rem;
     display: flex;

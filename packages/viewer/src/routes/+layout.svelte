@@ -13,6 +13,7 @@
   import Nav from '@/components/Nav.svelte'
   import Status from '@/components/Status.svelte'
   import Footer from '@/components/Footer.svelte'
+  import PresentMode from '@/components/PresentMode.svelte'
 
   export let data: LayoutData
 
@@ -37,3 +38,4 @@
 <Status />
 <slot />
 <Footer />
+<PresentMode />

@@ -59,6 +59,11 @@
     "softwareCredit": "Yazılım",
     "dataLastSync": "Veri son senkronizasyon:"
   },
+  "present": {
+    "active": "Sunum modu",
+    "start": "Sunum",
+    "exit": "Çık"
+  },
   "lang": {
     "tr": "TR",
     "en": "EN"
