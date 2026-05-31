@@ -62,7 +62,18 @@
   "present": {
     "active": "Presentation mode",
     "start": "Present",
-    "exit": "Exit"
+    "exit": "Exit",
+    "share": "🎓 Share with class",
+    "shareTitle": "Share with your class",
+    "shareHint": "Send this link to your students. Their browsers will automatically follow the page you're on.",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "close": "Close",
+    "copyLink": "Copy link",
+    "broadcasting": "Live session",
+    "following": "Following teacher",
+    "fullscreen": "Fullscreen",
+    "fullscreenExit": "Exit fullscreen"
   },
   "lang": {
     "tr": "TR",

@@ -62,7 +62,18 @@
   "present": {
     "active": "Sunum modu",
     "start": "Sunum",
-    "exit": "Çık"
+    "exit": "Çık",
+    "share": "🎓 Sınıfa paylaş",
+    "shareTitle": "Sınıfla paylaş",
+    "shareHint": "Bu linki öğrencilerinize gönderin. Ekranları otomatik olarak sizin açtığınız sayfayı takip eder.",
+    "copy": "Bağlantıyı kopyala",
+    "copied": "Kopyalandı!",
+    "close": "Kapat",
+    "copyLink": "Bağlantı",
+    "broadcasting": "Canlı oturum",
+    "following": "Hoca takip ediliyor",
+    "fullscreen": "Tam ekran",
+    "fullscreenExit": "Tam ekrandan çık"
   },
   "lang": {
     "tr": "TR",
